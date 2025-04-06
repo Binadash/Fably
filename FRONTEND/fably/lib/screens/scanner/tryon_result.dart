@@ -227,7 +227,7 @@ class _VirtualTryOnResultPageState extends State<VirtualTryOnResultPage> {
               children: isLoading
                   ? <Widget>[
                       // Loading Screen
-                      CircularProgressIndicator(),
+                      Image.network("https://res.cloudinary.com/dcmelcukm/image/upload/v1743949710/vton-gif_wuombg.gif"),
                       const SizedBox(height: 20),
                       Text(
                         loadingMessage,
